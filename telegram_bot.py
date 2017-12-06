@@ -16,8 +16,7 @@ from telegram.ext import CommandHandler
 # updater.start_polling()
 
 import telegram
-TOKEN = '397690531:AAFkajeINkTLSIZvgni3bjfqL-Cl67TiNxM'
-chat_id = '346840475'
+
 bot = telegram.Bot(token=TOKEN)
 bot.send_message(chat_id=chat_id, text="I'm a bot,")
 
